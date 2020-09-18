@@ -38,7 +38,7 @@ model = CNN()
 optimizer = optim.SGD(model.parameters(), lr=0.0001, momentum=0.8)
 loss = nn.NLLLoss()
 
-for epoch in range(70):
+for epoch in range(30):
     epoch_loss = 0
     train_accuracy = [0,0]
 
